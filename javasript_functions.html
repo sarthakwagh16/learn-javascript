@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS functions</title>
+</head>
+
+<body>
+    <div class="box">
+        <h1>Javascript Functions</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam maxime nesciunt delectus nihil dolor qui
+            magni deserunt cum eius explicabo quia cumque quod ex illum laudantium, quo quas saepe alias temporibus?
+            Fugit, dignissimos necessitatibus?</p>
+    </div>
+
+</body>
+<script>
+    function greet(name, greeting = "Welcome to javasript tutorial") {
+        console.log("hello" + " " + name + " " + greeting);
+    }
+    let name1 = "sarthak";
+    let name2 = "prateek";
+    let name3 = "shantanu";
+    let name4 = "himu";
+    let greeting1 = "Good morning";
+    greet(name1);
+    //here for name1 the default argument is called (welcome to js tut)
+    greet(name2, greeting1);
+    greet(name3, greeting1);
+    greet(name4, greeting1);
+
+
+</script>
+
+</html>

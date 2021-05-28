@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>functions</title>
+</head>
+<body>
+    <div class="box">
+        <h1>function in javasript</h1>
+    </div>
+</body>
+<script>
+    //function to calculate area of triangle
+    function area_triangle(base,height){
+        let area=0.5*base*height;
+        console.log("Area of triangle is"+" "+area);
+    }
+    area_triangle(4,6);
+    area_triangle(10,15);
+
+    //function to check wheather the num is even/odd
+    function even_odd(a){
+        if(a%2==0){
+            console.log(a+" "+"is even");
+        }
+        else{
+            console.log(a+" "+"is odd");
+        }
+    }
+    even_odd(3);
+    even_odd(46);
+</script>
+</html>
