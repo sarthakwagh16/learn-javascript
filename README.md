@@ -1,1 +1,1 @@
-# Javasript from Basic to Advance
+# Javasript from Basics to Advance
