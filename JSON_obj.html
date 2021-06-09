@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Json object</title>
+</head>
+<body>
+    <div class="box">
+        <h1>This is Json Object</h1>
+    </div>
+    <script>
+        let jsonobj={
+            name:"Sarthak",
+            crush:"Tanya",
+            position:"Web developer"
+        }
+        console.log(jsonobj);
+        //here we convert obj to string using stringify fun
+        let myjsonObj=JSON.stringify(jsonobj);
+        console.log(myjsonObj);
+        //here we can also use string fun on it
+        myjsonObj=myjsonObj.replace("Tanya","Pallavi Patil");
+        console.log(myjsonObj);
+
+        //here we convert string to object using parse fun
+        let newJsonobj=JSON.parse(myjsonObj);
+        console.log(newJsonobj);
+    </script>
+</body>
+</html>
